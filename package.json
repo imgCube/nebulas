@@ -1,0 +1,14 @@
+{
+  "name": "@imgCube/nebulas",
+  "version": "0.0.1",
+  "description": "Custom Nebulas API wrapper for imgCube with TypeScript type definitions.",
+  "repository": "https://github.com/imgCube/nebulas.git",
+  "author": "Nufflee",
+  "license": "MIT",
+  "dependencies": {
+    "nebulas": "^0.4.8"
+  },
+  "devDependencies": {
+    "typescript": "^2.8.3"
+  }
+}

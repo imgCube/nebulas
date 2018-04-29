@@ -1,0 +1,18 @@
+{
+  "exclude": [
+    "node_modules",
+    "tests"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowJs": false,
+    "checkJs": false,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es2017",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true
+  }
+}
