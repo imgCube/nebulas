@@ -175,3 +175,7 @@ typings/
 \.cache/
 
 dist/
+build/
+
+test.ts
+*.html

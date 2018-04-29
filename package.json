@@ -1,14 +1,24 @@
 {
-  "name": "@imgCube/nebulas",
-  "version": "0.0.1",
+  "name": "nebulify",
+  "version": "0.4.8",
   "description": "Custom Nebulas API wrapper for imgCube with TypeScript type definitions.",
   "repository": "https://github.com/imgCube/nebulas.git",
   "author": "Nufflee",
   "license": "MIT",
+  "files": [
+    "build/**.*"
+  ],
+  "scripts": {
+    "publish": "tsc && ts-node scripts/bundleDefinitions"
+  },
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
   "dependencies": {
     "nebulas": "^0.4.8"
   },
   "devDependencies": {
-    "typescript": "^2.8.3"
+    "denodeify": "^1.2.1",
+    "typescript": "^2.8.3",
+    "dts-bundle": "^0.7.3"
   }
 }

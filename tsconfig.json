@@ -3,6 +3,11 @@
     "node_modules",
     "tests"
   ],
+  "include": [
+    "lib/src/*.ts",
+    "lib/*.ts",
+    "global.d.ts"
+  ],
   "compilerOptions": {
     "baseUrl": ".",
     "allowJs": false,
@@ -12,7 +17,9 @@
     "moduleResolution": "node",
     "module": "commonjs",
     "target": "es2017",
-    "jsx": "react",
+    "outDir": "./build",
+    "declaration": true,
+    "declarationDir": "./build",
     "allowSyntheticDefaultImports": true
   }
 }
