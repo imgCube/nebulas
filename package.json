@@ -2,7 +2,7 @@
   "name": "nebulify",
   "version": "0.4.8",
   "description": "Custom Nebulas API wrapper for imgCube with TypeScript type definitions.",
-  "repository": "https://github.com/imgCube/nebulas.git",
+  "repository": "https://github.com/imgCube/nebulify.git",
   "author": "Nufflee",
   "license": "MIT",
   "files": [
